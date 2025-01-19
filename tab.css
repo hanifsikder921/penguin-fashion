@@ -1,0 +1,194 @@
+/* =====================================Responsive Design For large tab======================================>>>>>>>>>>>>>>>>>>>>>>>>>  */
+
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    /* ==========================================================Header Section Nav Design start==================================================>*/
+
+
+    /* ==========================================================Header Section Nav Design start==================================================>*/
+
+    header {
+        background-color: rgb(255, 251, 240);
+        padding: 0px 40px;
+
+
+    }
+
+    nav {
+        background-image: none;
+    }
+
+    header nav .icon {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    /* ==========================================================Header Section Banner Design start==================================================>*/
+    .banner {
+        padding: 40px 0px 50px;
+        align-items: center;
+        flex-direction: row;
+       
+
+    }
+
+    .banner .content {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .banner .content h1 {
+
+        font-size: 50px;
+
+    }
+
+    .banner .content p {
+        width: 85%;
+
+    }
+
+    .banner .right {
+        display: block;
+        height: 320px;
+        width: 320px;
+        padding: 20px;
+   
+
+    }
+
+    .banner .right .photo {
+        position: relative;
+        height: 320px;
+        width: 300px;
+    
+      
+
+    }
+
+
+
+    .banner .right .photo img {
+        position: absolute;
+        height: 145%;
+        width: 105%;
+        bottom: 2px;
+        left: -5px;
+    
+    
+    }
+
+
+   
+
+
+    /* ====================================== */
+
+    
+    /* ========================================================== Jacket Section Banner Design start==================================================>*/
+
+
+
+
+    .category {
+     
+        width: calc(100vw - 40px);
+
+
+    }
+
+
+    .category .jacket .card {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+
+
+    }
+
+    .p-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .jacket .card .cover img {
+        width: 250px;
+        height: 300px;
+    }
+
+
+    .jacket {
+        flex-direction: column;
+
+    }
+
+
+
+
+
+
+
+    /* ========================================================== Support Section Banner Design start==================================================>*/
+
+    .support {
+
+        width: calc(100vw - 40px);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      
+
+
+    }
+
+
+    .sp-card {
+        min-height: 200px;
+        align-items: center;
+
+
+    }
+
+
+
+    .sp-card .sp-content {
+        padding-left: 5%;
+        padding-right: 15%;
+
+    }
+
+
+    .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        order: 1;
+    }
+
+    .left {
+        order: 2;
+    }
+
+
+
+
+
+
+    
+
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+ 
+
+    
+
+
+
+}

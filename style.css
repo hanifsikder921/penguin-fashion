@@ -322,7 +322,9 @@ nav ul li a {
 /* ================================================================Responsive Secrren Design Start============================================================================>>>>>>>>> */
 /* ================================================================Responsive Secrren Design Start============================================================================>>>>>>>>> */
 
-@media only screen and (max-width:576px) {
+
+/* =====================================Responsive Design For Mobile======================================>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media only screen and (min-width:0px) and (max-width:576px) {
 
     /* ==========================================================Header Section Nav Design start==================================================>*/
 
@@ -457,15 +459,15 @@ nav ul li a {
 
     }
 
-   
-    .right{
+
+    .right {
         order: 1;
     }
 
-    .left{
+    .left {
         order: 2;
     }
- 
+
 
 
 
@@ -493,3 +495,182 @@ nav ul li a {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================================Responsive Design For Tab======================================>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media  screen and (min-width:576px) and (max-width:768px) {
+
+    /* ==========================================================Header Section Nav Design start==================================================>*/
+
+
+    /* ==========================================================Header Section Nav Design start==================================================>*/
+
+    header {
+        background-color: rgb(255, 251, 240);
+        padding: 0px 40px;
+
+    }
+
+    nav {
+        background-image: none;
+    }
+
+    header nav .icon {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    /* ==========================================================Header Section Banner Design start==================================================>*/
+    .banner {
+        padding: 40px 0px 50px;
+        align-items: center;
+
+    }
+
+    .banner .content {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .banner .content h1 {
+       
+        font-size: 50px;
+  
+    }
+
+    .banner .content p {
+        width: 85%;
+ 
+    }
+
+    .banner .right {
+        height: 320px;
+        width: 320px;
+        padding: 40px;
+
+    }
+
+    .banner .right .photo {
+        height: 250px;
+        width: 250px;
+
+    }
+
+    .banner .right .photo img {
+        left: 14px;
+
+
+    }
+
+    /* ========================================================== Jacket Section Banner Design start==================================================>*/
+
+
+
+
+    .category {
+        width: calc(100vw - 40px );
+       
+
+    }
+
+
+    .category .jacket .card {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+         
+
+    }
+
+    .p-info{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .jacket .card .cover img {
+        width: 250px;
+        height: 300px;
+    }
+    
+
+    .jacket {
+        flex-direction: column;
+       
+    }
+
+
+   
+
+    
+
+
+    /* ========================================================== Support Section Banner Design start==================================================>*/
+
+    .support {
+        width: calc(100vw - 40px);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      
+
+    }
+
+
+    .sp-card {
+        min-height: 200px;
+        align-items: center;
+
+
+    }
+
+   
+
+    .sp-card .sp-content {
+        padding-left: 5%;
+        padding-right: 15%;
+
+    }
+
+  
+    .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        order: 1;
+    }
+
+    .left{
+        order: 2;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
