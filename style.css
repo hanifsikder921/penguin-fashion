@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --border: 2px solid red;
+}
+
+/*<================================================================ Shared Style ====================================================================>>>>>>>>>>> */
+
+.flex {
+    display: flex;
+}
+
+.buy {
+    width: fit-content;
+    color: white;
+    background: linear-gradient(rgb(164, 188, 70), rgb(133, 160, 25));
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    padding: 18px 33px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: baseline;
+    gap: 10px;
+}
+
+.spb {
+    justify-content: space-between;
+}
+
+.spa {
+    justify-content: space-around;
+}
+
+.alc {
+    align-items: center;
+}
+
+.jacket .card .cover img {
+    width: 300px;
+    height: 350px;
+}
+
+/* ==========================================================Header Section Nav Design start==================================================>*/
+
+header {
+    background-color: rgb(255, 251, 240);
+    padding: 0px 270px;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+nav {
+    font-family: Roboto;
+    align-items: center;
+    padding: 50px 0px 40px;
+    background-image: url(icon/dot.png);
+    background-repeat: no-repeat;
+    background-position: 345px;
+    background-position-y: top;
+}
+
+header nav .icon {
+    display: none;
+}
+
+nav img {
+    width: 292px;
+    height: 40px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    gap: 50px;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* ==========================================================Header Section Banner Design start==================================================>*/
+.banner {
+    padding: 50px 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner .content {
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.banner .content h1 {
+    font-family: "Bebas Neue", serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(54, 57, 88);
+}
+
+.banner .content p {
+    width: 60%;
+    color: rgb(62, 62, 62);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner .right {
+    height: 600px;
+    width: 600px;
+    padding: 50px;
+
+}
+
+.banner .right .photo {
+    background-image: url(icon/Group\ 33091.png);
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+
+
+}
+
+.banner .right .photo img {
+    position: absolute;
+    height: 135%;
+    width: 95%;
+    bottom: 0;
+    left: 25px;
+
+
+}
+
+/* ========================================================== Jacket Section Banner Design start==================================================>*/
+
+
+
+
+.category {
+    width: calc(100vw - 540px);
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: Bebas Neue;
+
+}
+
+.category>span {
+    color: rgb(54, 57, 88);
+    font-family: Bebas Neue;
+    font-size: 48px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 30px;
+
+}
+
+.category .jacket .card {
+    padding: 18px 18px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+
+}
+
+.cover {
+    background-color: rgb(241, 241, 241);
+    padding: 40px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jacket {
+    gap: 30px;
+}
+
+
+.jacket h3 {
+    color: rgb(54, 57, 88);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.jacket p {
+    color: rgb(62, 62, 62);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: calc(100% - 30px);
+}
+
+.price {
+    align-items: center;
+}
+
+.price span {
+    color: rgb(250, 190, 76);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
+/* ========================================================== Support Section Banner Design start==================================================>*/
+
+.support {
+    width: calc(100vw - 540px);
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-family: Bebas Neue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 85px;
+    margin-top: 100px;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sp-card {
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    display: flex;
+    min-height: 180px;
+
+
+}
+
+.sp-card .sp-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sp-card .sp-icon img {
+    width: 100px;
+    height: auto;
+}
+
+.sp-card .sp-content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-left: 36px;
+    padding-right: 80px;
+
+}
+
+.sp-card .sp-content span {
+    color: rgb(54, 57, 88);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+}
+
+.sp-card .sp-content p {
+    color: rgb(62, 62, 62);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================Responsive Secrren Design Start============================================================================>>>>>>>>> */
+/* ================================================================Responsive Secrren Design Start============================================================================>>>>>>>>> */
+/* ================================================================Responsive Secrren Design Start============================================================================>>>>>>>>> */
+
+@media only screen and (max-width:576px) {
+
+    /* ==========================================================Header Section Nav Design start==================================================>*/
+
+
+    header {
+        padding: 0px 20px;
+    }
+
+    header nav .icon {
+        display: block;
+    }
+
+    nav {
+        padding: 50px 0px 0px;
+        background-image: none;
+
+
+    }
+
+    nav img {
+        width: 192px;
+        height: 26px;
+
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+
+
+    /* ==========================================================Header Section Banner Design start==================================================>*/
+    .banner {
+        flex-direction: column;
+        padding: 50px 0px 100px;
+
+    }
+
+    .banner .content {
+        flex-direction: column;
+        gap: 24px;
+
+    }
+
+    .banner .content h1 {
+        font-size: 60px;
+    }
+
+    .banner .content p {
+        width: 80%;
+
+    }
+
+    .banner .right {
+        height: 43vh;
+        width: 90vw;
+        padding: 30px;
+
+    }
+
+    .banner .right .photo {
+        background-image: url(icon/Group\ 33091.png);
+        height: 43vh;
+        width: 90vw;
+        position: absolute;
+        background-position: center;
+        left: 20px;
+
+
+    }
+
+    .banner .right .photo img {
+        position: absolute;
+        height: 135%;
+        width: 95%;
+        bottom: 0px;
+        left: 15px;
+
+
+    }
+
+    /* ========================================================== Jacket Section Banner Design start==================================================>*/
+
+
+    .category {
+        width: calc(100vw - 40px);
+
+    }
+
+    .category>span {
+        font-size: 36px;
+        text-align: center;
+
+    }
+
+    .jacket {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+
+
+    /* ========================================================== Support Section Banner Design start==================================================>*/
+
+    .support {
+        width: calc(100vw - 40px);
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .sp-card {
+
+        padding: 20px;
+        min-height: 300px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 25px;
+
+
+    }
+
+    .sp-card .sp-icon img {
+        width: 70px;
+    }
+
+    .sp-card .sp-content {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding: 0px 10px;
+
+    }
+
+   
+    .right{
+        order: 1;
+    }
+
+    .left{
+        order: 2;
+    }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
