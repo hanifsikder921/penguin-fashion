@@ -249,6 +249,7 @@ nav ul li a {
     padding: 25px;
     display: flex;
     min-height: 180px;
+    align-items: center;
 
 
 }
